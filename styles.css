@@ -1,0 +1,51 @@
+/* CSS Stylesheet */
+
+html {
+  background-color: #9fd8fb;
+}
+
+/* Toggle Switch Styling */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #9fd8fb;
+}
+
+.toggle-btn {
+  width: 250px;
+  height: 100px;
+  background: cyan;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.toggle-btn > .inner-circle {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+}
+/* When the switch is active, change background-color to #ff7e82 OR #ff6c70 */
+
+.toggle-btn.active {
+  background: red;
+}
+
+.toggle-btn.active > .inner-circle {
+  margin-left: 168px;
+}
+
+/* Footer Styling */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgrey;
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
